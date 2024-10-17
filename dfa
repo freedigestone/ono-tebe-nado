@@ -1,0 +1,23 @@
+[33mcommit f1f34cd56d418bc1bb65642953299f424be1f616[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Ilya Aleksentsev <freedigestone@yandex.ru>
+Date:   Sun Oct 13 01:25:08 2024 +0900
+
+    100 лет прошло
+
+[33mcommit 50c689a8a9324a2314392ccc2133f698fd624b8d[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Ilya Aleksentsev <freedigestone@yandex.ru>
+Date:   Mon Aug 19 23:59:19 2024 +0900
+
+    файл index.html заполнен контентом без стилей
+
+[33mcommit a6d3c118b5bd175b46d98717d46ce16b92f8379b[m
+Author: Ilya Aleksentsev <freedigestone@yandex.ru>
+Date:   Mon Aug 19 00:50:53 2024 +0900
+
+    Скелет странциы index и стилей css
+
+[33mcommit 071791c959bc7430b1e740c9994b6b45a5e8264b[m
+Author: freedigestone <freedigestone@yandex.ru>
+Date:   Sat Aug 17 19:22:51 2024 +0900
+
+    Initial commit
