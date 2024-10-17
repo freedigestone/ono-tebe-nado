@@ -272,9 +272,6 @@ h2 {
   padding: 136px 0 0 25px;
 }
 
-.about__title {
-}
-
 .text {
   display: flex;
   flex-direction: column;
@@ -355,9 +352,6 @@ h2 {
 .footer__social-list-item {
   padding-top: 2px;
   list-style-type: none;
-}
-
-.footer__social-link {
 }
 
 .footer__social-icon {
