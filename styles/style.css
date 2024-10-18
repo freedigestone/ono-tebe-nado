@@ -51,25 +51,33 @@ h2 {
   height: 105px;
 }
 
-.header__address {
+.address {
+  /*Исправил согласно замечаний для переиспользования класса и в header  и в  footer*/
   width: 240.52px;
   height: 98px;
-  padding: 5px 25.48px 0 0;
-  font-family: "Raleway";
+  font-family: Raleway , sans-serif; /*Исправил согласно замечаний во всем файле*/
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
   line-height: 135%;
 }
 
+.header__address {
+  /*Исправил согласно замечаний */
+  justify-self: end;   
+  padding: 5px 25.48px 0 0;
+}
+
 /*Блок Ковер*/
 .cover {
   position: relative;
-  z-index: -1;
+  z-index: 1; /*Исправил согласно замечаний*/
   display: flex;
   flex-direction: column;
-  height: 757px;
+  min-height: 757px; /*Исправил согласно замечаний*/
   background-image: url(../images/cover.jpg);
+  background-position:center; /*Исправил согласно замечаний*/
+  background-size: auto; /*Исправил согласно замечаний*/
 }
 
 .overlay {
@@ -86,7 +94,7 @@ h2 {
   align-items: flex-start;
   padding: 165px 50px 135px;
   color: #fff;
-  font-family: "Raleway";
+  font-family: Raleway , sans-serif;
   font-weight: 700;
   font-size: 100px;
   letter-spacing: 0.3em;
@@ -138,8 +146,9 @@ h2 {
 .bet-button {
   width: 256px;
   height: 51px;
-  border: 1px solid #fff;
   color: #fff;
+  border: 1px solid currentColor; /*Исправил согласно замечаний*/ 
+  font-family: 'Raleway', sans-serif; /*Исправил согласно замечаний*/ 
   font-weight: 500;
   font-size: 22px;
   text-align: center;
@@ -166,7 +175,7 @@ h2 {
 
 .lots__card-list-item {
   position: relative;
-  z-index: -1;
+  z-index: 1; /*Исправил согласно замечаний*/ 
   flex-grow: 1;
   width: 334px;
   min-height: 563px;
@@ -184,11 +193,14 @@ h2 {
   justify-content: space-between;
   height: 100%;
   padding: 51px 40px 48px;
+  /*Исправил согласно замечаний*/
+  background-position: center;
+  background-size: cover;
 }
 
 .card__title {
   color: #ffffff;
-  font-family: "Raleway";
+  font-family: Raleway , sans-serif;
   font-weight: 700;
   font-size: 22px;
   font-style: normal;
@@ -200,7 +212,7 @@ h2 {
 
 .card__text {
   color: #ffffff;
-  font-family: "Raleway";
+  font-family: Raleway , sans-serif;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
@@ -212,20 +224,17 @@ h2 {
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-position: center;
-  background-size: cover;
+/*Исправил согласно замечаний*/
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-position: center;
-  background-size: cover;
+/*Исправил согласно замечаний*/
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-position: center;
-  background-size: cover;
+  /*Исправил согласно замечаний*/
 }
 
 .lots__look-more-link {
@@ -241,7 +250,6 @@ h2 {
 .about {
   display: grid;
   grid-template-columns: 334px 2fr;
-  grid-template-rows: 595px;
   padding: 146px 24px 0;
 }
 
@@ -273,6 +281,7 @@ h2 {
 }
 
 .text {
+  padding-top: 100px; /*данный отступ нужен чтобы опустить блок с текстом ниже, как по макету, т.к. убрана жестко заданная высота строки  grid-template-rows: 595px;*/
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -308,16 +317,8 @@ h2 {
   justify-content: space-between;
   padding: 180px 50px 88px;
 }
-.footer__address {
-  width: 240.52px;
-  height: 98px;
-  padding-top: 2px;
-  font-family: "Raleway";
-  font-weight: 400;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 135%;
-}
+
+
 .footer__menu {
   padding-top: 2px;
 }
