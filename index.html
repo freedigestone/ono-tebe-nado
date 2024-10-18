@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <section>
       <header class="header">
         <nav class="header__menu">
           <ul class="header__links-list">
@@ -24,9 +23,9 @@
             </li>
           </ul>
         </nav>
-        <logo class="header__logo">
+        <section id="logo" class="header__logo">
           <a class="header__logo-image"><img src="./images/logo-black.svg" alt="Логотип черный" /></a>
-        </logo>
+        </section>
         <address class="header__address">
           <a href="tel:+99995555555" class="header__links-list-item"
             >+9 999 555 5555</a
@@ -37,10 +36,10 @@
           <span>наб. Принсенграхт 263- 265, Амстердам</span>
         </address>
       </header>
-    </section>  
+    
     <main>
-      <section>
-        <cover class="cover">
+       <!--  Заглавная Секция "Оно тебе надо" -->
+        <section id="cover" class="cover">
           <overlay class="overlay"></overlay>
           <h1 class="cover__title">
             <span class="aligned-text"
@@ -62,10 +61,10 @@
             </p>
             <button type="button" class="bet-button">Сделать ставку</button>
           </description>
-        </cover>
-      </section> 
-      <section>
-        <lots class="lots">
+        </section>
+      
+       <!--  Секция Лоты -->
+        <section id="lots" class="lots">
           <h2 class="lots__heading">Лоты</h2>
           <ul class="lots__card-list">
             <li class="lots__card-list-item card_type_film">
@@ -120,10 +119,9 @@
             </li>
           </ul>
           <a href="" class="lots__look-more-link">посмотреть больше</a>
-        </lots>
-      </section>
-      <section> 
-        <about class="about">
+        </section>
+      <!--  Секция Об Аукционе -->
+        <section id="about" class="about">
           <column class="about__column">
             <span class="about__logo"
               ><img
@@ -172,8 +170,8 @@
               </p></span
             >
           </article>
-        </about>
-      </section> 
+        </section>
+     
     </main>
     <footer class="footer">
       <address class="footer__address">
