@@ -63,8 +63,8 @@ h2 {
 }
 /*Исправил согласно замечаний */
 .header__address {
-  justify-self: end;   
   padding: 5px 25.48px 0 0;
+  justify-self: end;
 }
 
 /*Блок Ковер*/
@@ -145,9 +145,9 @@ h2 {
 .bet-button {
   width: 256px;
   height: 51px;
-  border: 1px solid currentColor;
   color: #fff;  
   font-family: Raleway , sans-serif; 
+  border: 1px solid currentColor;
   font-weight: 500;
   font-size: 22px;
   text-align: center;
@@ -174,13 +174,13 @@ h2 {
 /*Исправил согласно замечаний*/ 
 .card {
   position: relative;
-  z-index: 1; 
   flex-grow: 1;
   width: 334px;
   min-height: 563px;
   list-style: none;
   background-position: center;
   background-size: cover;
+  z-index: 1; 
 }
 
 .card-link {
