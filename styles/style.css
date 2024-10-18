@@ -145,8 +145,8 @@ h2 {
 .bet-button {
   width: 256px;
   height: 51px;
-  color: #fff;
-  border: 1px solid currentColor;  
+  border: 1px solid currentColor;
+  color: #fff;  
   font-family: Raleway , sans-serif; 
   font-weight: 500;
   font-size: 22px;
@@ -280,11 +280,11 @@ h2 {
 }
 
 .text {
-  padding-top: 100px; /*данный отступ нужен чтобы опустить блок с текстом ниже, как по макету, т.к. убрана жестко заданная высота строки  grid-template-rows: 595px;*/
   display: flex;
   flex-direction: column;
   justify-content: end;
   gap: 24px;
+  padding-top: 100px; /*данный отступ нужен чтобы опустить блок с текстом ниже, как по макету, т.к. убрана жестко заданная высота строки  grid-template-rows: 595px;*/
 }
 
 .about__text {
