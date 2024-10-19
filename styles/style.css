@@ -54,7 +54,6 @@ h2 {
 .address {
   /*Исправил согласно замечаний для переиспользования класса и в header  и в  footer*/
   width: 240.52px;
-  min-height: 98px;
   font-family: Raleway , sans-serif; /*Исправил согласно замечаний во всем файле*/
   font-weight: 400;
   font-size: 18px;
