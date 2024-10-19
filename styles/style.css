@@ -54,7 +54,7 @@ h2 {
 .address {
   /*Исправил согласно замечаний для переиспользования класса и в header  и в  footer*/
   width: 240.52px;
-  height: 98px;
+  min-height: 98px;
   font-family: Raleway , sans-serif; /*Исправил согласно замечаний во всем файле*/
   font-weight: 400;
   font-size: 18px;
@@ -76,7 +76,7 @@ h2 {
   min-height: 757px; /*Исправил согласно замечаний*/
   background-image: url(../images/cover.jpg);
   background-position:center; /*Исправил согласно замечаний*/
-  background-size: auto; /*Исправил согласно замечаний*/
+  background-size: cover; /*Исправил согласно замечаний*/
 }
 
 .overlay {
